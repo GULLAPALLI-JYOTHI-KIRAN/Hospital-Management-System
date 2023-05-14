@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System || Gullapalli Jyothi Kiran</title>
+    <link rel="shortcut icon" href="./icons/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Nav-bar section start -->
+    <nav class="nav-bar-container">
+        <div class="nav-center  padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+            <div class="nav-log-section">
+                <a href="#"><img src="./icons/hospital-icon.svg" alt="hospital-icon"></a>
+            </div>
+            <div class="hambuger-menu">
+                <img src="./icons/hamburger-menu-icon.svg" alt="hambuger-menu" id="menu-bttn">
+            </div>
+            <div class="nav-links-main">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="aboutus.html" class="nav-link">About</a></li>
+                    <li><a href="doctor.html" class="nav-link">Doctors</a></li>
+                    <li><a href="service.html" class="nav-link">Services</a></li>
+                    <li><a href="contactus.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-sign-link"><a href="loginpage.html">Login </a><img src="./icons/login-icon.svg" alt=""></div>
+        </div>
+    </nav>
+    <!-- asidebar section start -->
+    <aside class="asidebar-container">
+        <div class="asidebar-center wraper padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+            <div class="asidebar-header-section">
+                <div class="asidebar-log-section">
+                    <a href="#"><img src="./icons/hospital-icon.svg" alt="hospital-icon"></a>
+                </div>
+                <div class="asidebar-close-section"><img src="./icons/close-icon.svg" alt="close-icon"></div>
+            </div>
+            <div class="asidebar-body-section">
+                <div class="asidebar-nav-links-main">
+                <ul class="asidebar-nav-links">
+                    <li><a href="#" class="asidebar-nav-link active">Home</a></li>
+                    <li><a href="aboutus.html" class="asidebar-nav-link ">About</a></li>
+                    <li><a href="doctor.html" class="asidebar-nav-link ">Doctors</a></li>
+                    <li><a href="service.html" class="asidebar-nav-link ">Services</a></li>
+                    <li><a href="contactus.html" class="asidebar-nav-link ">Contact</a></li>
+                </ul>
+            </div>
+            <div class="asidebar-login-section">
+                <a href="loginpage.html">Login</a>
+                <img src="./icons/login-icon.svg" alt="login-icon">
+            </div>
+            <div class="asidebar-social-links-main">
+                <ul class="asidebar-social-links padding-top-bottom-twenty-mobile">
+                    <li class="asidebar-social-link"><a href="#"><img src="./icons/linkedin-icon.svg" alt="linkedin-icon"></a></li>
+                    <li class="asidebar-social-link"><a href="#"><img src="./icons/whatsapp-icon.svg" alt="whatsapp-icon"></a></li>
+                    <li class="asidebar-social-link"><a href="#"><img src="./icons/google-mail-icon.svg" alt="mail-icon"></a></li>
+                    <li class="asidebar-social-link"><a href="#"><img src="./icons/facebook-icon.svg" alt="facebook-icon"></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </aside>
+    <!-- asidebar section end -->
+    <!-- banner page section start -->
+    <div class="banner-page-container">
+        <div class="banner-page-center">
+            <div class="img-component">
+                <img src="./asserts/banner-image.jpg" alt="banner-image">
+            </div>
+            <div class="banner-page-section padding-top-bottom-fifty-mobile">
+                <div class="banner-page-desc">
+                    <p class="desc padding-left-right-ten-mobile">“Time and health are two precious assets that we don’t recognize and appreciate until they have been depleted.”  – Denis Waitley </p>
+                </div>
+                <div class="help-button padding-top-bottom-ten-mobile padding-left-right-ten-mobile"><a href="loginpage.html">Book An Appointment</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- banner page section end -->
+     <!-- quick geasture sections start -->
+     <div class="quick-geasture-container">
+        <div class="quick-geasture-center">
+            <section class="quick-geasture-section two-column-layout padding-left-right-twenty-mobile">
+                <article class="each-geasture padding-top-bottom-ten-mobile padding-top-bottom-ten-mobile">
+                    <div class="geasture-icon"><a href="contactus.html"><img src="./icons/emergency-call-icon.svg" alt="emergency-call-icon"><p class="geasture-desc">Emergency</p></a></div>
+                </article>
+                <article class="each-geasture padding-top-bottom-ten-mobile padding-top-bottom-ten-mobile">
+                    <div class="geasture-icon"><a href="contactus.html"><img src="./icons/enquiry-icon.svg" alt="enquiry-icon"><p class="geasture-desc">Enquiry</p></a></div>
+                </article>
+                <article class="each-geasture padding-top-bottom-ten-mobile padding-top-bottom-ten-mobile">
+                    <div class="geasture-icon"><a href="contactus.html"><img src="./icons/medical-service-icon.svg" alt="medical-service-icon"><p class="geasture-desc">Medical Services</p></a></div>
+                </article>
+                <article class="each-geasture padding-top-bottom-ten-mobile padding-top-bottom-ten-mobile">
+                    <div class="geasture-icon"><a href="contactus.html"><img src="./icons/healthpackages-icon.svg" alt="healthpackages-icon"><p class="geasture-desc">Health Packages</p></a></div>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!-- quick geasture sections end -->
+    <!-- infrastructure section strat -->
+    <div class="infrastructure-container">
+        <div class="infrastructure-center">
+            <div class="section-heading padding-top-bottom-thirty-mobile ">
+                <h3 class="section-title">Our Infrastructure</h3>
+                <div class="underline"></div>
+            </div>
+            <section class="infrastructure-section padding-left-right-twenty-mobile padding-left-right-thirty-mobile">
+                <article class="hospital-blue-print">
+                    <div class="img-component">
+                        <img src="./asserts/hospital-infrastructure.jpg" alt="hospital-infrastructure">
+                    </div>
+                    <div class="hospital-infromation">
+                        <p class="hospital-details">
+                            We are one of the largest corporate healthcare groups in India, with hospitals in Telangana, Andhra Pradesh & Maharashtra providing multi-disciplinary integrated healthcare services with a focus on tertiary and quaternary healthcare at affordable cost. We operate 12 multi-specialty hospitals under the “HMS Hospitals” brand, with an aggregate bed capacity of over 4,000 beds. We offer a comprehensive range of healthcare services across over 25 specialties and super specialties, including cardiac sciences, oncology, neurosciences, gastric sciences, orthopaedics, organ transplantation, renal sciences and mother & child care. 
+                            <!-- We have grown from a single hospital to a chain of multi-specialty hospitals through organic growth and strategic acquisitions under the leadership of Dr. Bhaskara Rao Bollineni, our founder and Managing Director, and Dr. Abhinay Bollineni, our Executive Director and CEO. Our first hospital in our network was established in Nellore in 2000 and has a capacity of approximately 200 beds. Our flagship hospital at Secunderabad is one of the largest private hospitals in India at a single location (excluding medical colleges), according to the CRISIL Report, with a capacity of 1,000 beds. We have significantly expanded our hospital network in recent years through our acquisitions of hospitals in Ongole in Fiscal Year 2017, Vizag and Anantapur in Fiscal Year 2019, Kurnool in Fiscal Year 2020, Sunshine Hospitals in Fiscal Year 2021 and Nagpur (Kingsway Hospitals) in Fiscal Year2022 . Approximately one-third of our 4000 beds were launched in the last four to five years. We strive to provide quality service to more patients, and we believe we have scope for additional patients and improved occupancy rates. We strategically focus on the southern Indian healthcare market where we have a strong understanding of regional nuances, customer culture, and the mindset of medical professionals and where there is a significant and growing need for quality and affordable healthcare services. Each of our hospitals also has integrated diagnostic services and pharmacies that cater to our patients. -->
+                            <div class="secondary-bttn"><a href="aboutus.html">Read More</a></div>
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!-- infrastructure section end -->
+    <!-- Mission And Goal section start -->
+    <div class="moto-container">
+        <div class="moto-center wraper">
+            <section class="moto-section one-column-layout padding-top-bottom-thirty-mobile padding-left-right-twenty-mobile">
+                <article class="each-moto padding-top-bottom-twenty-mobile">
+                    <div class="moto-header">
+                        <h3 class="moto-title">Our Mission</h3>
+                    </div>
+                    <div class="moto-log">
+                        <img src="./asserts/mission.png" alt="mission">
+                    </div>
+                    <p class="moto-desc">
+                        To provide the finest standards in holistic health care and medicare for a wide section of society, showing respect for our patients in whatever we do.
+                    </p>
+                </article>
+                <article class="each-moto padding-top-bottom-twenty-mobile">
+                    <div class="moto-header">
+                        <h3 class="moto-title">Our Vision</h3>
+                    </div>
+                    <div class="moto-log">
+                        <img src="./asserts/vision.png" alt="vision">
+                    </div>
+                    <p class="moto-desc">
+                        To provide world class quick and safest Facilities to critically ill patients.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!-- Mission And Goal section end -->
+    <!-- our specialities section start -->
+    <div class="specialities-container">
+        <div class="specialities-center wraper">
+            <div class="section-heading padding-top-bottom-thirty-mobile ">
+                <h3 class="section-title">Our Specialities</h3>
+                <div class="underline"></div>
+            </div>
+            <section class="specialities-section four-column-layout padding-left-right-twenty-mobile padding-top-bottom-fifty-mobile">
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/neurology.png" alt="neurology">
+                    <p class="specialities-desc">Neurology</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/cardiology.png" alt="cardiology">
+                    <p class="specialities-desc">Cardiology</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/surgical-gastroenterology.png" alt="surgical-gastroenterology">
+                    <p class="specialities-desc">Surgical Gastroenterology</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/bariatric-surgery.png" alt="bariatric-surgery">
+                    <p class="specialities-desc">Bariatric Surgery</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/neuro-surgery.png" alt="neuro-surgery">
+                    <p class="specialities-desc">Neuro Surgery</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/pediatric-neurology.png" alt="pediatric-neurology">
+                    <p class="specialities-desc">Pediatric Neurology</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/neuro-psychiatry.png" alt="neuro-psychiatry">
+                    <p class="specialities-desc">Neuro Psychiatry</p>
+                    </div>
+                </article>
+                <article class="each-specialities padding-top-bottom-thirty-mobile">
+                    <div class="specialities-info">
+                        <img src="./asserts/cardiothoracic.png" alt="cardiothoracic">
+                    <p class="specialities-desc">Cardiothoracic</p>
+                    </div>
+                </article>
+            </section>
+            <div class="specialities-bttn"><a href="service.html">View More</a></div>
+        </div>
+    </div>
+    <!-- our specialities section end -->
+     <!-- facilities section start -->
+     <div class="facilities-container">
+        <div class="facilities-center ">
+            <div class="section-heading padding-top-bottom-thirty-mobile ">
+                <h3 class="section-title ">Our Facilities</h3>
+                <div class="underline"></div>
+            </div>
+            <section class="facilities-section wraper  padding-top-bottom-thirty-mobile padding-left-right-twenty-mobile padding-left-right-fourty-desktop">
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-1.jpg" alt="facility-1">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">General Wards</p>
+                    </div>
+                </article>
+                 <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-4.jpg" alt="facility-4">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Economy Wards</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-2.jpg" alt="facility-2">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">VIP Wards</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-3.jpg" alt="facility-3">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Seating Area</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-5.jpg" alt="facility-5">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Emergency Wards</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-6.jpg" alt="facility-6">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Clinics</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-7.jpg" alt="facility-7">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Operation Theater</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-9.jpg" alt="facility-9">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Pharmacy</p>
+                    </div>
+                </article>
+                <article class="each-facility padding-left-right-twenty-mobile padding-top-bottom-twenty-mobile">
+                    <div class="img-component">
+                        <img src="./asserts/facility-8.jpg" alt="facility-8">
+                    </div>
+                    <div class="facility-desc">
+                        <p class="desc">Ambulance Services</p>
+                    </div>
+                </article>  
+            </section>
+            <div class="sliders-arrow-section padding-top-bottom-ten-mobile border-color">
+                <img src="./asserts/arrow-back.png" alt="arrow-back" id="rear" class="width-up border-color">
+                <img src="./asserts/arrow-forward.png" alt="arrow-forward" id="front" class="width-up border-color">
+            </div>
+        </div>
+    </div>
+    <!-- facilities section end -->
+     <!-- doctors section start -->
+     <div class="doctors-container">
+        <div class="doctors-center wraper">
+            <div class="section-heading padding-top-bottom-thirty-mobile ">
+                <h3 class="section-title">Our Doctors</h3>
+                <div class="underline"></div>
+                <section class="doctors-section three-column-layout padding-left-right-twenty-mobile padding-top-bottom-fifty-mobile">
+                    <article class="each-doctor-profile padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                        <div class="doctor-img-component">
+                            <img src="./asserts/doctor-1.jpg" alt="doctor-1">
+                        </div>
+                        <div class="doctor-details">
+                            <h3 class="doctor-name">Dr. Siddhartha Mukherjee</h3>
+                            <h5 class="doctor-title">Gynaecologist</h5>
+                            <p class="doctor-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident possimus sint ipsam, amet voluptatem reprehenderit, eligendi dolores illo eius consectetur nam corrupti voluptatum maiores reiciendis dolore labore animi perspiciatis!</p>
+                        </div>
+                    </article>
+                    <article class="each-doctor-profile padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                        <div class="doctor-img-component">
+                            <img src="./asserts/doctor-2.jpg" alt="doctor-2">
+                        </div>
+                        <div class="doctor-details">
+                            <h3 class="doctor-name">Dr. Viraj Godbole</h3>
+                            <h5 class="doctor-title">Ophthalmologist</h5>
+                            <p class="doctor-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident possimus sint ipsam, amet voluptatem reprehenderit, eligendi dolores illo eius consectetur nam corrupti voluptatum maiores reiciendis dolore labore animi perspiciatis!</p>
+                        </div>
+                    </article>
+                    <article class="each-doctor-profile padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                        <div class="doctor-img-component">
+                            <img src="./asserts/doctor-3.jpg" alt="doctor-3">
+                        </div>
+                        <div class="doctor-details">
+                            <h3 class="doctor-name">Dr. Amber Leis</h3>
+                            <h5 class="doctor-title">Psychiatrist</h5>
+                            <p class="doctor-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident possimus sint ipsam, amet voluptatem reprehenderit, eligendi dolores illo eius consectetur nam corrupti voluptatum maiores reiciendis dolore labore animi perspiciatis!</p>
+                        </div>
+                    </article>
+                    <article class="each-doctor-profile padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                        <div class="doctor-img-component">
+                            <img src="./asserts/doctor-4.jpg" alt="doctor-4">
+                        </div>
+                        <div class="doctor-details">
+                            <h3 class="doctor-name">Dr. Aaliya Yaqub</h3>
+                            <h5 class="doctor-title">Surgeon</h5>
+                            <p class="doctor-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident possimus sint ipsam, amet voluptatem reprehenderit, eligendi dolores illo eius consectetur nam corrupti voluptatum maiores reiciendis dolore labore animi perspiciatis!</p>
+                        </div>
+                    </article>
+                    <article class="each-doctor-profile padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                        <div class="doctor-img-component">
+                            <img src="./asserts/doctor-5.jpg" alt="doctor-5">
+                        </div>
+                        <div class="doctor-details">
+                            <h3 class="doctor-name">Dr. Yogita Musale</h3>
+                            <h5 class="doctor-title">cardiologists</h5>
+                            <p class="doctor-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident possimus sint ipsam, amet voluptatem reprehenderit, eligendi dolores illo eius consectetur nam corrupti voluptatum maiores reiciendis dolore labore animi perspiciatis!</p>
+                        </div>
+                    </article>
+                    <article class="each-doctor-profile padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                        <div class="doctor-img-component">
+                            <img src="./asserts/doctor-6.jpg" alt="doctor-6">
+                        </div>
+                        <div class="doctor-details">
+                            <h3 class="doctor-name">Dr. Nikhil Nikam</h3>
+                            <h5 class="doctor-title"> ENT specialists</h5>
+                            <p class="doctor-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident possimus sint ipsam, amet voluptatem reprehenderit, eligendi dolores illo eius consectetur nam corrupti voluptatum maiores reiciendis dolore labore animi perspiciatis!</p>
+                        </div>
+                    </article>
+                </section>
+                <div class="specialities-bttn"><a href="doctor.html">See More</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- doctors section end -->
+    <!--Testimonial  section start -->
+    <div class="testimonial-container">
+        <div class="testimonial-center wraper">
+            <div class="section-heading padding-top-bottom-thirty-mobile ">
+                <h3 class="section-title">Testimonial</h3>
+                <div class="underline width-sized"></div>
+            </div>
+            <section  class="testimonial-section padding-left-right-twenty-mobile padding-top-bottom-fifty-mobile">
+                    <article class="each-testimonial padding-left-right-twenty-mobile padding-top-bottom-thirty-mobile">
+                        <div class="review-info">
+                            <p class="review-desc">The services that I receive from Dr. Siddhartha Mukherjee is excellent. Dr. Siddhartha Mukherjee and the staff are friendly and ensure that I am properly informed about my health and care. I would have no qualms in recommending them to friendly and friends.</p>
+                        </div>
+                        <h4 class="patient-name ">Ryan</h4>
+                        <p class="person-title">patient</p>
+                    </article>
+                    <article class="each-testimonial padding-left-right-twenty-mobile padding-top-bottom-thirty-mobile">
+                        <div class="review-info">
+                            <p class="review-desc">Dr. William A. Abdu is incredible. Not only has she taken great care of my health, but also she is lovely to speak with at every appointment. It’s rare to find a doctor that combines such personal touches and care for a patient as a person with outstanding quality of medical care. I highly recommend becoming her patient!.</p>
+                        </div>
+                        <h4 class="patient-name ">Jeff</h4>
+                        <p class="person-title">patient</p>
+                    </article>
+                    <article class="each-testimonial padding-left-right-twenty-mobile padding-top-bottom-thirty-mobile">
+                        <div class="review-info">
+                            <p class="review-desc">Dr. Surbhi Anand did a great job with my first ever health exam. She explained everything to me in a very clear manner. She was also kind and friendly. All of the staff was great – they were helpful, patient and helped with my insurance.</p>
+                        </div>
+                        <h4 class="patient-name ">Carmen</h4>
+                        <p class="person-title">patient</p>
+                    </article>
+                    <article class="each-testimonial padding-left-right-twenty-mobile padding-top-bottom-thirty-mobile">
+                        <div class="review-info">
+                            <p class="review-desc">Dr. Gagan Gautam is a great doctor! He’s very understanding and listens to your concerns. He takes time with the patient to help them with their health issues! I highly recommend him to anyone looking for a specialist.</p>
+                        </div>
+                        <h4 class="patient-name ">Tim</h4>
+                        <p class="person-title">patient</p>
+                    </article>
+                    <article class="each-testimonial padding-left-right-twenty-mobile padding-top-bottom-thirty-mobile">
+                        <div class="review-info">
+                            <p class="review-desc">This practice is terrific.Dr. Sanjay Sachdeva combines expertise and a willingness to listen and discuss. She’s also an excellent surgeon. Also, the staff is very friendly and professional. I’ve never had to wait more than a few minutes when I arrive on time for an appointment</p>
+                        </div>
+                        <h4 class="patient-name ">Marina</h4>
+                        <p class="person-title">patient</p>
+                    </article>
+                    <article class="each-testimonial padding-left-right-twenty-mobile padding-top-bottom-thirty-mobile">
+                        <div class="review-info">
+                            <p class="review-desc">Great medical office, wonderful and warm experience from start to finish. Appreciate Dr. Ashish Sabharwal taking time to go over the diagnosis clearly and treatment options. Was referred over by my general doctor and can see why. Highly recommended.</p>
+                        </div>
+                        <h4 class="patient-name ">Anthony</h4>
+                        <p class="person-title">patient</p>
+                    </article>
+            </section>
+            <div class="sliders-arrow-section padding-top-bottom-ten-mobile border-color">
+                <img src="./asserts/arrow-back.png" alt="arrow-back" id="scroll-back" class="border-color width-up">
+                <img src="./asserts/arrow-forward.png" alt="arrow-forward" id="scroll-front" class="border-color width-up">
+            </div>
+        </div>
+    </div>
+    <!--Testimonial  section end -->
+      <!-- our branch section start -->
+    <div class="hospital-branch-container">
+        <div class="hospital-branch-center wraper">
+            <div class="section-heading padding-top-bottom-thirty-mobile ">
+                <h3 class="section-title">Our Branches</h3>
+                <div class="underline"></div>
+            </div>
+            <section class="hospital-branch-section three-column-layout padding-left-right-twenty-mobile padding-top-bottom-fifty-mobile">
+                <article class="each-branch padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                    <div class="branch-main-component">
+                        <div class="branch-img-component">
+                            <img src="./asserts/branch-1.jpg" alt="branch-1">
+                        </div>
+                        <div class="branch-location">
+                            <a href="#"><img src="./icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="branch-details padding-left-right-ten-mobile padding-top-bottom-thirty-mobile">
+                        <h3 class="branch-title">Maharashtra</h3>
+                        <h5 class="branch-address">Ahmednagar-414001</h5>
+                        <p class="branch-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, soluta, sint deleniti odio, blanditiis suscipit consectetur accusamus hic repudiandae porro veniam obcaecati modi ducimus velit eius quos maiores sunt facere?</p>
+                    </div>
+                </article>
+                <article class="each-branch padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                    <div class="branch-main-component">
+                        <div class="branch-img-component">
+                            <img src="./asserts/branch-2.jpg" alt="branch-2">
+                        </div>
+                        <div class="branch-location">
+                            <a href="#"><img src="./icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="branch-details padding-left-right-ten-mobile padding-top-bottom-thirty-mobile">
+                        <h3 class="branch-title">Andhra Pradesh</h3>
+                        <h5 class="branch-address">Vijayawada-520003</h5>
+                        <p class="branch-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, soluta, sint deleniti odio, blanditiis suscipit consectetur accusamus hic repudiandae porro veniam obcaecati modi ducimus velit eius quos maiores sunt facere?</p>
+                    </div>
+                </article>
+                <article class="each-branch padding-left-right-ten-mobile padding-top-bottom-twenty-mobile">
+                    <div class="branch-main-component">
+                        <div class="branch-img-component">
+                            <img src="./asserts/branch-3.jpg" alt="branch-3">
+                        </div>
+                        <div class="branch-location">
+                            <a href="#"><img src="./icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="branch-details padding-left-right-ten-mobile padding-top-bottom-thirty-mobile">
+                        <h3 class="branch-title">Telangana</h3>
+                        <h5 class="branch-address">Hitec City-500081</h5>
+                        <p class="branch-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, soluta, sint deleniti odio, blanditiis suscipit consectetur accusamus hic repudiandae porro veniam obcaecati modi ducimus velit eius quos maiores sunt facere?</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!-- our branch section end -->
+    <!-- footer section start -->
+    <div class="footer-container">
+        <div class="footer-center wraper">
+            <div class="footer-section padding-top-bottom-thirty-mobile">
+                <div class="footer-nav-links-main">
+                    <ul class="footer-nav-links padding-top-bottom-twenty-mobile">
+                        <li><a href="#" class="footer-nav-link active-ur">Home</a></li>
+                        <li><a href="aboutus.html" class="footer-nav-link "> About</a></li>
+                        <li><a href="doctor.html" class="footer-nav-link">Doctors</a></li>
+                        <li><a href="service.html" class="footer-nav-link">Services</a></li>
+                        <li><a href="contactus.html" class="footer-nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-links-main">
+                    <ul class="footer-social-links">
+                        <li class="footer-social-link"><a href="#"><img src="./icons/linkedin-icon.svg" alt="linkedin-icon"></a></li>
+                        <li class="footer-social-link"><a href="#"><img src="./icons/whatsapp-icon.svg" alt="whatsapp-icon"></a></li>
+                        <li class="footer-social-link"><a href="#"><img src="./icons/google-mail-icon.svg" alt="mail-icon"></a></li>
+                        <li class="footer-social-link"><a href="#"><img src="./icons/facebook-icon.svg" alt="facebook-icon"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-desc padding-left-right-ten-mobile">
+                    <p class="desc">Copyright 2022 -<span id="getdata"></span>,Developed By Gullapalli Jyothi Kiran.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section end -->
+    <!-- javascript section start -->
+    <script src="./js/nav-side-bar.js"></script>
+    <script src="./js/facilities.js"></script>
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/footer.js"></script>
+    <!-- javascript section end-->
+</body>
+</html>
